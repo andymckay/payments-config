@@ -12,6 +12,7 @@ config = {
                 'id': 'brick',
                 'description': _('Brick'),
                 'amount': '10.00',
+                'type': 'subscription:monthly',
             },
             {
                 'id': 'mortar',
@@ -20,6 +21,13 @@ config = {
                 'img': ('https://raw.githubusercontent.com/mozilla'
                         '/payments-config/master/payments_config'
                         '/assets/mortar.png'),
+                'type': 'subscription:monthly',
+            },
+            {
+                'id': 'trowel',
+                'description': _('Trowel'),
+                'amount': '3.25',
+                'type': 'one-off'
             }
         ]
     }
